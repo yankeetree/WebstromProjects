@@ -38,3 +38,8 @@ body{
 .top a:hover{
     color:#f60;
 }
+/*搜索*/
+.sousuo{
+    width:350px;
+    height:41px
+}
