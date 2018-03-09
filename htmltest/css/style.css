@@ -14,7 +14,9 @@ body{
 .y{
     float:right
 }
-.cl{cleat:both}
+.cl{clear:both}
+.mr_0{margin:0}
+img{border:none;}
 
 .top{
     width:100%;
@@ -38,8 +40,192 @@ body{
 .top a:hover{
     color:#f60;
 }
+/*LOGOS*/
+.logos{
+    height:51px;
+    margin:10px 0;
+}
 /*搜索*/
 .sousuo{
-    width:350px;
-    height:41px
+    width:300px;
+    height:26px;
+    margin-top:12px;
 }
+.sousuo td{
+    height:26px;
+}
+.s_z{
+    width:6px;
+    background:url("../images/tu_06.gif") no-repeat;
+}
+.s_c{
+    width:200px;
+    background:url("../images/tu_08.gif") repeat-x;
+}
+.s_y{
+    width:45px;
+    background:url("../images/tu_10.gif") no-repeat;
+}
+.s_c input{
+    height:20px;
+    line-height:20px;
+    border:none;
+    margin-top:2px;
+    width:200px;
+}
+.s_y button{
+    width:45px;
+    height:23px;
+    background:none;
+    border:0;
+    cursor:pointer;
+}
+.dianhua{
+    height: 59px;
+    line-height: 50px;
+}
+.dianhua span{
+    font-size:26px;
+    color:darkred;
+}
+/*导航*/
+.nav{
+    height:39px;
+    width:100%;
+    background:url("../images/tu_16.gif") repeat-x;
+}
+.nav li{
+    list-style:none;
+    line-height: 24px;
+    padding: 0 28px;
+    float:left;
+}
+.nav li.a,.nav li:hover{
+    background:darkred;url("../images/tu_166.jpg") repeat-x;
+}
+.nav a{
+    color:#fff;
+    font-size:16px;
+    text-decoration:none;
+}
+
+/*center*/
+.tit{
+    padding-bottom:5px;
+    border-bottom:1px solid darkred;
+    position:relative;
+    margin-bottom:10px;
+}
+.tit span{
+    position:absolute;
+    right:0;
+    bottom:0px;
+
+}
+.tit a{
+    color:darkred;
+    text-decoration:none;
+}
+.jianjie{
+    width:400px;
+    height:300px;
+    margin-right:20px;
+    }
+.jj_c img{
+    float:left;
+    margin:0 10px 10px 0;
+}
+.jj_c p{
+    color:lightblue;
+    text-indent:24px;
+}
+.xinwen{
+    width:540px;
+    height:300px;
+}
+.xw_c{
+
+}
+.xw_c li{
+    list-style:none;
+    height:24px;
+    line-height:24px;
+    position:relative;
+    padding-left:15px;
+    background:url("../images/") no-repeat;
+}
+.xw_c li.a{
+    background:none;
+    padding:0;
+    height:76px;
+}
+.xw_c li img{
+    float:left;
+    margin:0 10px 10px 0;
+}
+.xw_c span{
+    position:absolute;
+    right:0;
+    bottom:0;
+    color:#888888;
+    font-size:12px;
+}
+.xw_c h3{
+    font-weight:normal;
+    font-size:12px;
+}
+.xw_c a{
+    color:#616161;
+    text-decoration:none;
+}
+.chanpin{
+    width:100%;
+    height:300px;
+
+.cp_c{
+}
+}
+.cp_c li{
+    float:left;
+    list-style:none;
+    margin:0 71px 10px 0;
+    width:89px;
+    height:54px;
+    overflow:hidden;
+    position:relative;
+ }
+ .cp_c span{
+    display:none;
+    position:absolute;
+    bottom:0;
+    left:0;
+    font-size:10px;
+    height:9px;
+    width:67px;
+    padding:9px;
+    color:#fff;
+    background:darkred;
+    overflow:hidden;
+ }
+ .cp_c li a:hover span{
+    display:block;
+ }
+ .cp_c li img{
+    float:left;
+ }
+/*footer*/
+.footer{
+    height:47px;
+    width:100%;
+    background:url("../images/tu_41.gif") repeat-x;
+}
+.footer_top{
+    height:10px;
+    line-height:47px;
+    color:#fff;
+}
+.footer_top a{
+    color:#fff;
+    text-decoration:none;
+}
+
